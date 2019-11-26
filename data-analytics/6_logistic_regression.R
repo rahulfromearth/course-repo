@@ -22,8 +22,8 @@ logistic <- function(x, y, k, obs, dif) {
         # k: number of predictor variables
         # obs: sample size / number of observations
         
-        # create zero vector of length (k + 1)
-        beta <- rep(0, (k + 1))
+        # create zero vector of length, k
+        beta <- rep(0, k)
         
         diff <- 10^3
         
