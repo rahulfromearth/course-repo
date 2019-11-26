@@ -1,3 +1,6 @@
+*
+!.gitignore
+!/data
 ![0-9]*
 
 # History files
